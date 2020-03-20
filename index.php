@@ -39,7 +39,7 @@ include 'conn.php';
                         <td><?php echo $pecah['admin_password'] ?></td>
                         <td><?php echo $pecah['admin_nama'] ?></td>
                         <td width="230px">
-                            <a href="" class="btn btn-warning">Edit</a>
+                            <a href="edit.php?dEdit=<?php echo $pecah['admin_id'] ?>" class="btn btn-warning">Edit</a>
                             <a href="hapus.php?dHapus=<?php echo $pecah['admin_id'] ?>" class="btn btn-danger">Hapus</a>
                             <a href="detail.php?dSelect=<?php echo $pecah['admin_id'] ?>" class="btn btn-success">Detail</a>
                         </td>
